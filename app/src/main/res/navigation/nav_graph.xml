@@ -19,4 +19,9 @@
         android:name="ru.dsvusial.badhabitsdestroyer.ui.history.HistoryFragment"
         android:label="fragment_history"
         tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/achievementFragment"
+        android:name="ru.dsvusial.badhabitsdestroyer.ui.achievement.AchievementFragment"
+        android:label="fragment_achievement"
+        tools:layout="@layout/fragment_achievement" />
 </navigation>
