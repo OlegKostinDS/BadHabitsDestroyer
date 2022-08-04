@@ -6,4 +6,7 @@
     <string name="achievement">Achievement</string>
     <string name="a_girl">a girl</string>
     <string name="do_it">You can do it</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
 </resources>
