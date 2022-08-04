@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Kotlin/BadHabitsDestroyer/app/src/main/res/drawable/ic_achievement.xml" value="0.1" />
         <entry key="..\:/Kotlin/BadHabitsDestroyer/app/src/main/res/drawable/ic_history.xml" value="0.1" />
+        <entry key="..\:/Kotlin/BadHabitsDestroyer/app/src/main/res/layout/fragment_history.xml" value="0.30564102564102563" />
+        <entry key="..\:/Kotlin/BadHabitsDestroyer/app/src/main/res/layout/fragment_splash.xml" value="0.30564102564102563" />
       </map>
     </option>
   </component>

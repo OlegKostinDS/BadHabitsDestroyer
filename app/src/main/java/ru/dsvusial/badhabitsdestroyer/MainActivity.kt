@@ -36,6 +36,7 @@ class MainActivity : AppCompatActivity() {
                 .findFragmentById(R.id.nav_host_fragment)
                     as NavHostFragment
             val navController = navHostFragment.navController
+
             //enable vanigation when item clikced by linking the drawer to the navigation controller
             //setupWithNavController method links the drawers navigation view to the navigation controller
             val navView = binding.navView
@@ -43,10 +44,12 @@ class MainActivity : AppCompatActivity() {
             // builds a configuration that links the toolbar to the navigatin graph
             // and applies it to the toolbar
             val builder = AppBarConfiguration.Builder(navController.graph)
+            //to open drawer with "burger" button
+            builder.setOpenableLayout(binding.drawerLayout)
             val appBarConfiguration = builder.build()
             binding.toolbar.setupWithNavController(navController, appBarConfiguration)
 
-        }, 1000)
+        }, 2000)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -57,6 +60,6 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val navController = findNavController(R.id.nav_host_fragment)
         return item.onNavDestinationSelected(navController) ||
-        return super.onOptionsItemSelected(item)
+                return super.onOptionsItemSelected(item)
     }
 }
