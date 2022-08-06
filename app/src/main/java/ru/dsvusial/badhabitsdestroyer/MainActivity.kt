@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
             val appBarConfiguration = builder.build()
             binding.toolbar.setupWithNavController(navController, appBarConfiguration)
 
-        }, 2000)
+        }, 1000)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

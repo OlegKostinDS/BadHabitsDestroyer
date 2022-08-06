@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-<!--this means that a single item in the group will be highlighted when clickedn just single -->
+    <!--this means that a single item in the group will be highlighted when clickedn just single -->
     <group android:checkableBehavior="single">
 
 
-    <item
-        android:id="@+id/achievementFragment"
-        android:icon="@drawable/ic_achievement"
-        android:title="@string/achievement" />
-    <item android:title="@string/history">
-        <menu>
-            <item
-                android:id="@+id/historyFragment"
-                android:icon="@drawable/ic_history"
-                android:title="@string/history" />
-        </menu>
+        <item
+            android:id="@+id/achievementFragment"
+            android:icon="@drawable/ic_achievement"
+            android:title="@string/achievement" />
+        <item
+            android:id="@+id/gameFragment"
+            android:icon="@drawable/ic_game"
+            android:title="@string/game" />
+        <item android:title="@string/history">
+            <menu>
+                <item
+                    android:id="@+id/historyFragment"
+                    android:icon="@drawable/ic_history"
+                    android:title="@string/history" />
+            </menu>
 
-    </item>
-</group>
+        </item>
+    </group>
 </menu>

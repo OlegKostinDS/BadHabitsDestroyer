@@ -34,9 +34,10 @@
         android:id="@+id/nav_view"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:background="@color/lighter_teal"
         android:layout_gravity="start"
-        app:menu="@menu/menu_drawer"
+        android:fitsSystemWindows="true"
         app:headerLayout="@layout/nav_header"
-        android:fitsSystemWindows="true" />
+        app:menu="@menu/menu_drawer" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
